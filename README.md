@@ -63,3 +63,8 @@ face.evoLVe 为人脸相关分析和应用提供了全面的人脸识别库，�
 3. 各种骨干网（例如，ResNet，IR，IR-SE，ResNeXt，SE-ResNeXt，DenseNet，LightCNN，MobileNet，ShuffleNet，DPN等）；   
 4. 各种损失函数（例如，Softmax，Focal，Center，SphereFace，CosFace，AmSoftmax，ArcFace，Triplet等等）；   
 5. 提高性能的技巧包（例如，训练改进，模型调整，知识蒸馏等）。    
+
+
+## 参考五
+一篇很基础的博文：[在Amazon Sagemaker上使用Pytorch进行人脸识别（包括Jupyter笔记本代码）](https://medium.com/vaibhav-malpanis-blog/face-recognition-using-pytorch-on-amazon-sagemaker-c4f9f34c45f5)  
++ 您可以看到我们正在使用预训练的模型（alexnet）。Torchvision提供了许多预先训练的模型
