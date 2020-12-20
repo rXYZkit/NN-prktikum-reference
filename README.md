@@ -34,6 +34,10 @@ MTCNN+Face_recognition实时人脸识别(二)训练自己的数据/多进程实�
 Face Alignment：This section is based on the work of MTCNN.
 > 关于face-recognition模块：这是一个python的module 下载后使用  [Face Recognition 人脸识别模块方法学习](https://blog.csdn.net/u014695788/article/details/89352503)  [人工智能之Python人脸识别技术--face_recognition模块](https://blog.csdn.net/qq_31673689/article/details/79370412?utm_medium=distribute.pc_relevant.none-task-blog-baidujs_title-3&spm=1001.2101.3001.4242)   
 
+> MTCNN使用的一个教程 https://machinelearningmastery.com/how-to-develop-a-face-recognition-system-using-facenet-in-keras-and-an-svm-classifier/
+
+
+
 ---
 ## 参考二
 从[深度学习之人脸识别模型--FaceNet](https://www.buildworld.cn/2020/04/17/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B9%8B%E4%BA%BA%E8%84%B8%E8%AF%86%E5%88%AB%E6%A8%A1%E5%9E%8B-FaceNet/#5%E3%80%81GPU%E5%86%85%E5%AD%98%E6%BA%A2%E5%87%BA%E9%97%AE%E9%A2%98%EF%BC%8C%E5%B7%B2%E7%BB%8F%E8%A7%A3%E5%86%B3) 以及它参考的文章 [FaceNet pre-trained模型以及FaceNet源码使用方法和讲解](https://blog.csdn.net/MrCharles/article/details/80360461)中摘取的关键：
@@ -68,3 +72,28 @@ face.evoLVe 为人脸相关分析和应用提供了全面的人脸识别库，�
 ## 参考五
 一篇很基础的博文：[在Amazon Sagemaker上使用Pytorch进行人脸识别（包括Jupyter笔记本代码）](https://medium.com/vaibhav-malpanis-blog/face-recognition-using-pytorch-on-amazon-sagemaker-c4f9f34c45f5)  
 + 您可以看到我们正在使用预训练的模型（alexnet）。Torchvision提供了许多预先训练的模型
+
+
+## 参考六 
+在GitHub上看到的 [runiRC/resnet-face-pytorch](https://github.com/AruniRC/resnet-face-pytorch)  内容是   
+Contents   
+ResNet-50 on UMD-Faces
+  + Dataset preparation
+  + Training
+  + Evaluation demo   
+ResNet-50 on VGGFace2   
+  + Dataset preparation
+  + Training
+  + Evaluation LFW   
+  
+就是使用 UMD-Faces/VGGFace2 两个数据集训练 ResNet-50网络
+
+## 参考七
+srwpf / ResNet50-Pytorch-Face-Recognition(https://gitee.com/srwpf/ResNet50-Pytorch-Face-Recognition)
+一个非常简洁的完整的小项目组织形式，可以学习。内容是训练了resnet和vgg来用作面部识别
+
+## 参考八 
+AlfredXiangWu/LightCNN (https://github.com/AlfredXiangWu/LightCNN)
+light_cnn出自2016 cvpr吴翔A Light CNN for Deep Face Representation with Noisy Labels，
+优势在于一个很小的模型和一个非常不错的识别率。主要原因在于，
+（1）作者使用maxout作为激活函数，实现了对噪声的过滤和对有用信号的保留，从而产生更好的特征图MFM(Max-Feature-Map)。这个思想非常不错，本人将此思想用在center_loss中，实现了大概0.5%的性能提升，同时，这个maxout也就是所谓的slice+eltwise，这2个层的好处就是，一，不会产生训练的参数，二，基本很少耗时，给人的感觉就是不做白不做，性能还有提升。
