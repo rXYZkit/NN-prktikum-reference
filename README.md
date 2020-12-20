@@ -97,3 +97,7 @@ AlfredXiangWu/LightCNN (https://github.com/AlfredXiangWu/LightCNN)
 light_cnn出自2016 cvpr吴翔A Light CNN for Deep Face Representation with Noisy Labels，
 优势在于一个很小的模型和一个非常不错的识别率。主要原因在于，
 （1）作者使用maxout作为激活函数，实现了对噪声的过滤和对有用信号的保留，从而产生更好的特征图MFM(Max-Feature-Map)。这个思想非常不错，本人将此思想用在center_loss中，实现了大概0.5%的性能提升，同时，这个maxout也就是所谓的slice+eltwise，这2个层的好处就是，一，不会产生训练的参数，二，基本很少耗时，给人的感觉就是不做白不做，性能还有提升。
+
+---
+
+明天看一下这个https://github.com/ageitgey/face_recognition
