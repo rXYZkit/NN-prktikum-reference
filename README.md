@@ -110,3 +110,4 @@ light_cnn出自2016 cvpr吴翔A Light CNN for Deep Face Representation with Nois
 ![image.png](https://i.loli.net/2020/12/21/3GOUNDVxQrt5RE2.png)   
 
 
+下午看下这个【Face-Recognition-from-scratch】https://github.com/vishvanath45/Face-Recognition-from-scratch
