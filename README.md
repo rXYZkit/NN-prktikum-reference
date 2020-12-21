@@ -101,3 +101,12 @@ light_cnn出自2016 cvpr吴翔A Light CNN for Deep Face Representation with Nois
 ---
 
 明天看一下这个https://github.com/ageitgey/face_recognition
+## 参考九
+看了这个，里面是使用已有的库(face-recognotopm)进行了从图片里找到人脸，识别图片中的人是谁等功能，但是没有用到深度学习啊
+-->
+但是顺藤摸瓜找到一个流程 链接：https://medium.com/@ageitgey/machine-learning-is-fun-part-4-modern-face-recognition-with-deep-learning-c3cffc121d78
+![image.png](https://i.loli.net/2020/12/21/inQLCmJMd5sOVNy.png)   
+
+![image.png](https://i.loli.net/2020/12/21/3GOUNDVxQrt5RE2.png)   
+
+
