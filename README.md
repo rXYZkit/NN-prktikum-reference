@@ -74,7 +74,7 @@ face.evoLVe 为人脸相关分析和应用提供了全面的人脸识别库，�
 + 您可以看到我们正在使用预训练的模型（alexnet）。Torchvision提供了许多预先训练的模型
 
 
-## 参考六 
+## _参考六 _
 在GitHub上看到的 [runiRC/resnet-face-pytorch](https://github.com/AruniRC/resnet-face-pytorch)  内容是   
 Contents   
 ResNet-50 on UMD-Faces
@@ -86,7 +86,7 @@ ResNet-50 on VGGFace2
   + Training
   + Evaluation LFW   
   
-就是使用 UMD-Faces/VGGFace2 两个数据集训练 ResNet-50网络
+就是使用 UMD-Faces/VGGFace2 两个数据集**训练 ResNet-50网络** __如果我们想要使用ResNet50作为基backbone，那么或许载入这个或者其它的而不是 torchvision中使用Imgaenet训练的ResNet网络更好？？__
 
 ## 参考七
 srwpf / ResNet50-Pytorch-Face-Recognition(https://gitee.com/srwpf/ResNet50-Pytorch-Face-Recognition)
