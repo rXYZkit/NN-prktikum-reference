@@ -100,24 +100,19 @@ light_cnn出自2016 cvpr吴翔A Light CNN for Deep Face Representation with Nois
 
 ---
 
-明天看一下这个https://github.com/ageitgey/face_recognition
 ## 参考九
-看了这个，里面是使用已有的库(face-recognotopm)进行了从图片里找到人脸，识别图片中的人是谁等功能，但是没有用到深度学习啊
--->
-但是顺藤摸瓜找到一个流程 链接：https://medium.com/@ageitgey/machine-learning-is-fun-part-4-modern-face-recognition-with-deep-learning-c3cffc121d78
-![image.png](https://i.loli.net/2020/12/21/inQLCmJMd5sOVNy.png)   
+看了这个[/face_recognition 项目](https://github.com/ageitgey/face_recognition)，里面是使用已有的库(face_recognition)进行了从图片里找到人脸，识别图片中的人是谁等功能，但是没有用到深度学习啊
 
-![image.png](https://i.loli.net/2020/12/21/3GOUNDVxQrt5RE2.png)   
-
-
-下午看下这个【Face-Recognition-from-scratch】https://github.com/vishvanath45/Face-Recognition-from-scratch
+下午看下这个
 ## 参考10
-同上，这份项目指出，这是一个分类任务，可分为如下几个部分  
+【Face-Recognition-from-scratch】https://github.com/vishvanath45/Face-Recognition-from-scratch   
+这份项目指出，这是一个分类任务，可分为如下几个部分  
 1. 收集图像类，即Narendra_modi，Arvind_kejriwal，人民
 2. 从不同类别的图像中提取人脸
 3. 将数据分为培训，测试和交叉验证三类
 4. 在训练集中的每个班级的图像上训练分类器。
-5. 在Test_Set上测试
+5. 在Test_Set上测试   
+
 读了这个项目其实内容无参考价值，上面的这个步骤可以参考
 
 ## 参考 11 
