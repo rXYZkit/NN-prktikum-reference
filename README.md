@@ -111,3 +111,11 @@ light_cnn出自2016 cvpr吴翔A Light CNN for Deep Face Representation with Nois
 
 
 下午看下这个【Face-Recognition-from-scratch】https://github.com/vishvanath45/Face-Recognition-from-scratch
+## 参考10
+同上，这份项目指出，这是一个分类任务，可分为如下几个部分  
+1. 收集图像类，即Narendra_modi，Arvind_kejriwal，人民
+2. 从不同类别的图像中提取人脸
+3. 将数据分为培训，测试和交叉验证三类
+4. 在训练集中的每个班级的图像上训练分类器。
+5. 在Test_Set上测试
+读了这个项目其实内容无参考价值，上面的这个步骤可以参考
