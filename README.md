@@ -119,3 +119,17 @@ light_cnn出自2016 cvpr吴翔A Light CNN for Deep Face Representation with Nois
 4. 在训练集中的每个班级的图像上训练分类器。
 5. 在Test_Set上测试
 读了这个项目其实内容无参考价值，上面的这个步骤可以参考
+
+## 参考 11 
+微信文章：[轻松学Pytorch-使用ResNet50实现图像分类](https://mp.weixin.qq.com/mp/appmsgalbum?action=getalbum&__biz=MzA4MDExMDEyMw==&scene=1&album_id=1345187450108411905&count=3&uin=&key=&devicetype=Windows+10&version=620603c8&lang=zh_CN&ascene=1&winzoom=1)
+这篇文章做的事情很简单 可以和前面的联系在一起看 就是使用torchvision自带的 Resnet50 ((pretrained=True) 来执行图像的分类任务，应该说是应用，因为就是加载已有的标签，然后加载一个图片来显示图片的类别
+> 这里首先需要加载ImageNet的分类标签，目的是最后显示分类的文本标签时候使用。然后对输入图像完成预处理，使用ResNet50模型实现分类预测，对预测结果解析之后，显示标签文本
+
+## 参考12
+同一个微信公众号的文章：[轻松学Pytorch-全卷积神经网络实现表情识别](https://mp.weixin.qq.com/s?__biz=MzA4MDExMDEyMw==&mid=2247488958&idx=1&sn=172fff12a2b0486ca3eacdcb7f5bf562&chksm=9fa862faa8dfebecec80ed4555e295896789a098574d013e2f63517193293e1dd8cb24404e3e&scene=178&cur_album_id=1345187450108411905#rd)   
+这篇讲的内容多一些，虽然不是人脸识别，但是是人脸表情识别，输出的结果是：
+![image.png](https://i.loli.net/2020/12/22/1kwUOIzyg9cXA6N.png)   
+
+和我们想要的结果是类似的。此文的基础网络也是残差网络，不过是自定义block的简单残差网络EmotionsResNet，有可以参考的地方。
+
+类似的：[用Pytorch做人脸识别](https://www.jianshu.com/p/bd855481eda7)  使用了ImageFolder导入数据集，使用了2层的卷积网络，自带的损失函数训练很简单，有参考价值的是训练获得了model，应用model的过程，"因为抓取摄像头图片使用的Opencv, Pytorch识别图像使用PIL格式，所以需要做个转换：" 他是调用摄像头的，我们不需要，直接读取新的图片即可， ‘加载我们现有的模型进行预测：’ 可以学习这一部分
