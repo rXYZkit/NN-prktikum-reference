@@ -128,3 +128,7 @@ light_cnn出自2016 cvpr吴翔A Light CNN for Deep Face Representation with Nois
 和我们想要的结果是类似的。此文的基础网络也是残差网络，不过是自定义block的简单残差网络EmotionsResNet，有可以参考的地方。
 
 类似的：[用Pytorch做人脸识别](https://www.jianshu.com/p/bd855481eda7)  使用了ImageFolder导入数据集，使用了2层的卷积网络，自带的损失函数训练很简单，有参考价值的是训练获得了model，应用model的过程，"因为抓取摄像头图片使用的Opencv, Pytorch识别图像使用PIL格式，所以需要做个转换：" 他是调用摄像头的，我们不需要，直接读取新的图片即可， ‘加载我们现有的模型进行预测：’ 可以学习这一部分
+
+
+## 参考13 -- 应用图像增强
+https://blog.csdn.net/xiaoxifei/article/details/90408243
