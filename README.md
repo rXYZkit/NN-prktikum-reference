@@ -1,4 +1,4 @@
-# NN-prktikum-reference
+# NN-praktikum-reference
 在这里记录看到的有用的参考信息
 
 ## 参考1
