@@ -69,7 +69,7 @@ face.evoLVe 为人脸相关分析和应用提供了全面的人脸识别库，�
 5. 提高性能的技巧包（例如，训练改进，模型调整，知识蒸馏等）。    
 
 
-## 参考五
+## 参考五 -- 实施
 一篇很基础的博文：[在Amazon Sagemaker上使用Pytorch进行人脸识别（包括Jupyter笔记本代码）](https://medium.com/vaibhav-malpanis-blog/face-recognition-using-pytorch-on-amazon-sagemaker-c4f9f34c45f5)  
 + 您可以看到我们正在使用预训练的模型（alexnet）。Torchvision提供了许多预先训练的模型
 
@@ -88,11 +88,11 @@ ResNet-50 on VGGFace2
   
 就是使用 UMD-Faces/VGGFace2 两个数据集**训练 ResNet-50网络** __如果我们想要使用ResNet50作为基backbone，那么或许载入这个或者其它的而不是 torchvision中使用Imgaenet训练的ResNet网络更好？？__
 
-## 参考七
+## 参考七  -- 项目组织
 srwpf / ResNet50-Pytorch-Face-Recognition(https://gitee.com/srwpf/ResNet50-Pytorch-Face-Recognition)
 一个非常简洁的完整的小项目组织形式，可以学习。内容是训练了resnet和vgg来用作面部识别
 
-## 参考八 
+## 参考八  -- 可用来做数据增强
 AlfredXiangWu/LightCNN (https://github.com/AlfredXiangWu/LightCNN)
 light_cnn出自2016 cvpr吴翔A Light CNN for Deep Face Representation with Noisy Labels，
 优势在于一个很小的模型和一个非常不错的识别率。主要原因在于，
