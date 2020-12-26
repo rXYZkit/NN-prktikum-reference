@@ -1,6 +1,6 @@
 # Deep Learning with PyTorch
 
-优达城免费pytorch课程的tutorial的笔记(**节选**)
+优达城免费pytorch课程的tutorial的笔记(**节选了几个有用的part上传**)
 
 * **Part 1:** Introduction to PyTorch and using tensors
 * **Part 2:** Building fully-connected neural networks with PyTorch
