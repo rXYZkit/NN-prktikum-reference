@@ -2,39 +2,12 @@
 在这里记录看到的有用的参考信息
 
 ## 参考1
-MTCNN+Face_recognition实时人脸识别（一）基础环境的搭建/算法结合 https://blog.csdn.net/weixin_38106878/article/details/101286761
-MTCNN+Face_recognition实时人脸识别(二)训练自己的数据/多进程实时视频人脸识别 https://blog.csdn.net/weixin_38106878/article/details/102294999   
+> [在本教程中，我们还将使用多任务级联卷积神经网络（MTCNN）进行面部检测，例如从照片中查找和提取面部。](https://machinelearningmastery.com/how-to-develop-a-face-recognition-system-using-facenet-in-keras-and-an-svm-classifier/)   
+> [使用OpenCV进行人脸检测+ 深度学习的人脸检测MTCNN原理](https://machinelearningmastery.com/how-to-perform-face-detection-with-classical-and-deep-learning-methods-in-python-with-keras/)
+
+但是上面提供的都是tensorflow上的实现过程，因此需要基于pytorch的实现过程...
 
 
-目录   
-第一篇博客：基础环境的搭建以及mtcnn算法与人脸识别算法的结合
-1. 人脸识别思路以及project代码思路的简要介绍；
-2. 算法环境的搭建以及相关依赖包的安装；
-3. MTCNN算法与face-recognition算法结合的测试code；   
-
-
-
-第二篇博客：训练自己的人脸识别模型   
-1. 数据集结构的介绍
-2. 利用KNN训练生成自己的人脸特征底库
-3. 多进程实时人脸识别
-4. Project总结
-
-人脸识别思路   
-人脸识别是当今非常热门的技术之一，很多大公司已经把精度做到了99%以上，厉害～
-人脸识别技术简单的实现流程是**人脸检测（对齐）+人脸特征提取+人脸比对+输出识别结果**；这个简单实现思路中，涉及到了两部分比较重要的算法，一部分是人脸检测算法，还有一部分就是人脸特征提取算法；   
-1. 本博客就是按照这个简单的人脸识别思路进行人脸识别；
-2. 人脸检测部分算法采用的是**mtcnn**(其实face-recognition算法里面也有相关的人脸检测算法，dlib和cnn的)、
-3. 人脸特征提取部分算法采用的是**face-recognition模块**中的face_encoding模块、
-4. 特征提取以及生成底库特征采用的是KNN算法、
-5. 人脸比对采用的是通过计算待识别人脸128特征与底库人脸特征的欧式距离；   
-
-
-> 这里mtcnn是一个需要长时间训练的网络在[MTCNN + Deep_Sort实现多目标人脸跟踪之MTCNN人脸检测部分(一)](https://blog.csdn.net/weixin_38106878/article/details/98958406)训练了两天   
-Face Alignment：This section is based on the work of MTCNN.
-> 关于face-recognition模块：这是一个python的module 下载后使用  [Face Recognition 人脸识别模块方法学习](https://blog.csdn.net/u014695788/article/details/89352503)  [人工智能之Python人脸识别技术--face_recognition模块](https://blog.csdn.net/qq_31673689/article/details/79370412?utm_medium=distribute.pc_relevant.none-task-blog-baidujs_title-3&spm=1001.2101.3001.4242)   
-
-> MTCNN使用的一个教程 https://machinelearningmastery.com/how-to-develop-a-face-recognition-system-using-facenet-in-keras-and-an-svm-classifier/
 
 
 
