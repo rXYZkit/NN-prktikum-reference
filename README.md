@@ -5,14 +5,15 @@
 > [在本教程中，我们还将使用多任务级联卷积神经网络（MTCNN）进行面部检测，例如从照片中查找和提取面部。](https://machinelearningmastery.com/how-to-develop-a-face-recognition-system-using-facenet-in-keras-and-an-svm-classifier/)   
 > [使用OpenCV进行人脸检测+ 深度学习的人脸检测MTCNN原理](https://machinelearningmastery.com/how-to-perform-face-detection-with-classical-and-deep-learning-methods-in-python-with-keras/)
 
-但是上面提供的都是tensorflow上的实现过程，因此需要基于pytorch的实现过程...
-
-
-
-
+但是上面提供的都是tensorflow上的实现过程，因此需要基于pytorch的实现过程...下面这个有
 
 ---
 ## 参考二
+谷歌 face recognition github pytorch 第一个搜索结果 [Face Recognition Using Pytorch](https://github.com/timesler/facenet-pytorch)   
+
+
+---
+## 参考三 关于facenet的其它参考
 从[深度学习之人脸识别模型--FaceNet](https://www.buildworld.cn/2020/04/17/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B9%8B%E4%BA%BA%E8%84%B8%E8%AF%86%E5%88%AB%E6%A8%A1%E5%9E%8B-FaceNet/#5%E3%80%81GPU%E5%86%85%E5%AD%98%E6%BA%A2%E5%87%BA%E9%97%AE%E9%A2%98%EF%BC%8C%E5%B7%B2%E7%BB%8F%E8%A7%A3%E5%86%B3) 以及它参考的文章 [FaceNet pre-trained模型以及FaceNet源码使用方法和讲解](https://blog.csdn.net/MrCharles/article/details/80360461)中摘取的关键：
 > 因为程序中神经网络使用的是谷歌的“inception resnet v1”网络模型，这个模型的输入时160*160的图像，而我们下载的LFW数据集是250*250限像素的图像，所以需要进行图片的预处理。   
 
@@ -25,13 +26,10 @@
 ① 使用mtcnn进行人脸检测并对齐与裁剪  
 ---
 
-## 参考三
-谷歌 face recognition github pytorch 第一个搜索结果 [Face Recognition Using Pytorch](https://github.com/timesler/facenet-pytorch)   
-
 
 
 ## 参考四
-谷歌 face recognition github pytorch 第四个搜索结果 https://github.com/ZhaoJ9014/face.evoLVe.PyTorch，  还发布在微信公众号上[face.evoLVe：高性能人脸识别开源库，内附高能模型](https://mp.weixin.qq.com/s/V8VoyMqVvjblH358ozcWEg)   
+https://github.com/ZhaoJ9014/face.evoLVe.PyTorch  还发布在微信公众号上[face.evoLVe：高性能人脸识别开源库，内附高能模型](https://mp.weixin.qq.com/s/V8VoyMqVvjblH358ozcWEg)   
 
 face.evoLVe介绍
 face.evoLVe 为人脸相关分析和应用提供了全面的人脸识别库，包括：   
@@ -40,6 +38,16 @@ face.evoLVe 为人脸相关分析和应用提供了全面的人脸识别库，�
 3. 各种骨干网（例如，ResNet，IR，IR-SE，ResNeXt，SE-ResNeXt，DenseNet，LightCNN，MobileNet，ShuffleNet，DPN等）；   
 4. 各种损失函数（例如，Softmax，Focal，Center，SphereFace，CosFace，AmSoftmax，ArcFace，Triplet等等）；   
 5. 提高性能的技巧包（例如，训练改进，模型调整，知识蒸馏等）。    
+
+能够得到什么：
++ 这是一个库，可以直接调用人脸检测模块
++ 可以直接调用各种骨干网？-- “下图是作者开源的一个人脸识别预训练模型，骨干网用IR-50，网络Head ArcFace，Loss 函数Focal，在MS-Celeb-1M_Align_112x112数据上训练” -- “在该库的最新状态中，作者称正在MS-Celeb-1M_Align_112x112数据集上训练ResNet-50、IR-SE-50、 IR-SE-152、IR-152 ，并将很快提供下载。”
+
+
+
+
+
+
 
 
 ## 参考五 -- 实施
