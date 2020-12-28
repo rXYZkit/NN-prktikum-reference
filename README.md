@@ -33,7 +33,7 @@ https://github.com/ZhaoJ9014/face.evoLVe.PyTorch  还发布在微信公众号上
 
 face.evoLVe介绍
 face.evoLVe 为人脸相关分析和应用提供了全面的人脸识别库，包括：   
-1. 人脸对齐（人脸检测，特征点定位，仿射变换等）；   
+1. **人脸对齐（人脸检测，特征点定位，仿射变换等）；** -- 使用了这一部分的代码
 2. 数据处理（例如，数据增广，数据平衡，归一化等）；   
 3. 各种骨干网（例如，ResNet，IR，IR-SE，ResNeXt，SE-ResNeXt，DenseNet，LightCNN，MobileNet，ShuffleNet，DPN等）；   
 4. 各种损失函数（例如，Softmax，Focal，Center，SphereFace，CosFace，AmSoftmax，ArcFace，Triplet等等）；   
@@ -50,7 +50,7 @@ face.evoLVe 为人脸相关分析和应用提供了全面的人脸识别库，�
 
 
 
-## 参考五 -- 实施
+## 参考五 -- 实施参考(印度)
 一篇很基础的博文：[在Amazon Sagemaker上使用Pytorch进行人脸识别（包括Jupyter笔记本代码）](https://medium.com/vaibhav-malpanis-blog/face-recognition-using-pytorch-on-amazon-sagemaker-c4f9f34c45f5)  
 + 您可以看到我们正在使用预训练的模型（alexnet）。Torchvision提供了许多预先训练的模型
 
@@ -81,20 +81,7 @@ light_cnn出自2016 cvpr吴翔A Light CNN for Deep Face Representation with Nois
 
 ---
 
-## 参考九
-看了这个[/face_recognition 项目](https://github.com/ageitgey/face_recognition)，里面是使用已有的库(face_recognition)进行了从图片里找到人脸，识别图片中的人是谁等功能，但是没有用到深度学习啊
 
-下午看下这个
-## 参考10
-【Face-Recognition-from-scratch】https://github.com/vishvanath45/Face-Recognition-from-scratch   
-这份项目指出，这是一个分类任务，可分为如下几个部分  
-1. 收集图像类，即Narendra_modi，Arvind_kejriwal，人民
-2. 从不同类别的图像中提取人脸
-3. 将数据分为培训，测试和交叉验证三类
-4. 在训练集中的每个班级的图像上训练分类器。
-5. 在Test_Set上测试   
-
-读了这个项目其实内容无参考价值，上面的这个步骤可以参考
 
 ## 参考 11 
 微信文章：[轻松学Pytorch-使用ResNet50实现图像分类](https://mp.weixin.qq.com/mp/appmsgalbum?action=getalbum&__biz=MzA4MDExMDEyMw==&scene=1&album_id=1345187450108411905&count=3&uin=&key=&devicetype=Windows+10&version=620603c8&lang=zh_CN&ascene=1&winzoom=1)
