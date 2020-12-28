@@ -99,4 +99,9 @@ light_cnn出自2016 cvpr吴翔A Light CNN for Deep Face Representation with Nois
 
 
 ## 参考13 -- 应用图像增强
-https://blog.csdn.net/xiaoxifei/article/details/90408243
+https://blog.csdn.net/xiaoxifei/article/details/90408243   
+自定义 transform的方法
++ https://blog.csdn.net/qq_40467656/article/details/107979726
++ https://blog.csdn.net/dragongiri/article/details/107533668?utm_medium=distribute.pc_relevant.none-task-blog-baidujs_title-2&spm=1001.2101.3001.4242
++ https://blog.csdn.net/pengchengliu/article/details/108683509?utm_medium=distribute.pc_relevant.none-task-blog-baidujs_baidulandingword-2&spm=1001.2101.3001.4242
++ http://spytensor.com/index.php/archives/38/?yczwva=cktlx3
