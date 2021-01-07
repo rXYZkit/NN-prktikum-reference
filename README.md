@@ -1,6 +1,12 @@
 # NN-praktikum-reference
 在这里记录看到的有用的参考信息
 
+lfw图像对的读取  https://blog.csdn.net/oYeZhou/article/details/88942598
+
+
+
+
+
 ## 参考1
 > [在本教程中，我们还将使用多任务级联卷积神经网络（MTCNN）进行面部检测，例如从照片中查找和提取面部。](https://machinelearningmastery.com/how-to-develop-a-face-recognition-system-using-facenet-in-keras-and-an-svm-classifier/)   
 > [使用OpenCV进行人脸检测+ 深度学习的人脸检测MTCNN原理](https://machinelearningmastery.com/how-to-perform-face-detection-with-classical-and-deep-learning-methods-in-python-with-keras/)
