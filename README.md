@@ -4,7 +4,7 @@
 lfw图像对的读取  https://blog.csdn.net/oYeZhou/article/details/88942598
 
 
-
+论文写作参考 https://www.researchgate.net/publication/339064753_Development_of_Deep_Learning-Based_Facial_Recognition_System 
 
 
 ## 参考1
