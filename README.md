@@ -6,6 +6,7 @@ lfw图像对的读取  https://blog.csdn.net/oYeZhou/article/details/88942598
 
 论文写作参考 https://www.researchgate.net/publication/339064753_Development_of_Deep_Learning-Based_Facial_Recognition_System 
 
+[玩转pytorch中的torchvision.transforms!!!!]http://noahsnail.com/2020/06/12/2020-06-12-%E7%8E%A9%E8%BD%ACpytorch%E4%B8%AD%E7%9A%84torchvision.transforms/
 
 ## 参考1
 > [在本教程中，我们还将使用多任务级联卷积神经网络（MTCNN）进行面部检测，例如从照片中查找和提取面部。](https://machinelearningmastery.com/how-to-develop-a-face-recognition-system-using-facenet-in-keras-and-an-svm-classifier/)   
