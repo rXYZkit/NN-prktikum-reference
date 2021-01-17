@@ -1,6 +1,13 @@
 # NN-praktikum-reference
 在这里记录看到的有用的参考信息
 
+
+关于ResNet等backbone的信息，写report有用
+目标检测backbone：https://bywmm.github.io/2019/09/30/%E7%9B%AE%E6%A0%87%E6%A3%80%E6%B5%8Bbackbone/
+目标检测——Backbone与Detection head： https://zhuanlan.zhihu.com/p/93451942
+
+---
+
 lfw图像对的读取  https://blog.csdn.net/oYeZhou/article/details/88942598
 
 
