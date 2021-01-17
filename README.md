@@ -5,6 +5,7 @@
 关于ResNet等backbone的信息，写report有用
 目标检测backbone：https://bywmm.github.io/2019/09/30/%E7%9B%AE%E6%A0%87%E6%A3%80%E6%B5%8Bbackbone/
 目标检测——Backbone与Detection head： https://zhuanlan.zhihu.com/p/93451942
+深度学习与计算机视觉(PB-05)-网络微调 - https://lonepatient.top/2018/03/09/Deep_Learning_For_Computer_Vision_With_Python_PB_05.html#%E8%BF%81%E7%A7%BB%E5%AD%A6%E4%B9%A0%E5%92%8C%E5%BE%AE%E8%B0%83
 
 ---
 
